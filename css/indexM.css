@@ -1,0 +1,169 @@
+@media (min-width: 800px){
+.modalidades {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .Survival { grid-area: 1 / 1 / 2 / 2; }
+    .esurvival { grid-area: 1 / 3 / 2 / 4; }
+    .rpg { grid-area: 3 / 1 / 4 / 2; }
+    .minijuegos { grid-area: 3 / 3 / 4 / 4; }
+    .logo { grid-area: 2 / 2 / 3 / 3; }
+
+    .Survival {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        }
+        
+        .simg { grid-area: 1 / 1 / 2 / 2; }
+        .sp { grid-area: 1 / 2 / 2 / 3; }
+
+        .simg img{
+            width: 100%;
+        }
+
+        .parent {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: 1fr;
+            grid-column-gap: 0px;
+            grid-row-gap: 0px;
+            }
+            
+            .div1 { grid-area: 1 / 1 / 2 / 2; }
+            .div2 { grid-area: 1 / 2 / 2 / 3; }
+
+            
+
+                
+main {
+    background-image: url("../Imagenes/Lobby.png");
+    background-size: cover;
+    background-position: center;
+}
+.a{
+    background-color: rgba(255, 255, 255, 0.63);
+}
+header img{
+    width: 8%;
+}
+.logo img{
+    height: 10rem;
+    margin-left: 26%;
+}
+footer{
+    background-size: cover;
+    text-align: center;
+}
+.logof{
+    width: 20%;
+}
+}
+@media(min-width: 400px) and (max-width:800px){
+    .modalidades {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        }
+        
+        .Survival { grid-area: 1 / 1 / 2 / 2; }
+        .esurvival { grid-area: 1 / 2 / 2 / 3; }
+        .rpg { grid-area: 2 / 1 / 3 / 2; }
+        .minijuegos { grid-area: 2 / 2 / 3 / 3; }
+    
+        .Survival {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: 1fr;
+            grid-column-gap: 0px;
+            grid-row-gap: 0px;
+            }
+            
+            .simg { grid-area: 1 / 1 / 2 / 2; }
+            .sp { grid-area: 1 / 2 / 2 / 3; }
+    
+            .simg img{
+                width: 100%;
+            }
+    
+            
+    
+                
+    
+                    
+    main {
+        background-image: url("../Imagenes/Lobby.png");
+        background-size: cover;
+        background-position: center;
+    }
+    .a{
+        background-color: rgba(255, 255, 255, 0.63);
+    }
+    header img{
+        width: 8%;
+    }
+    .logo img{
+        height: 10rem;
+        margin-left: 26%;
+    }
+    footer{
+        background-size: cover;
+        text-align: center;
+    }
+    .logof{
+        width: 20%;
+    }
+}
+@media (max-width:400px){
+    
+        .Survival {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: 1fr;
+            grid-column-gap: 0px;
+            grid-row-gap: 0px;
+            }
+            
+            .simg { grid-area: 1 / 1 / 2 / 2; }
+            .sp { grid-area: 1 / 2 / 2 / 3; }
+    
+            .simg img{
+                width: 100%;
+            }
+    
+            
+    
+                
+    
+                    
+    main {
+        background-image: url("../Imagenes/Lobby.png");
+        background-size: cover;
+        background-position: center;
+    }
+    .a{
+        background-color: rgba(255, 255, 255, 0.63);
+    }
+    header img{
+        width: 8%;
+    }
+    .logo img{
+        height: 10rem;
+        margin-left: 26%;
+    }
+    footer{
+        background-size: cover;
+        text-align: center;
+    }
+    .logof{
+        width: 20%;
+    }
+}

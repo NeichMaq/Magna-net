@@ -1,0 +1,13 @@
+.n {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: 1fr;
+            grid-column-gap: 0px;
+            grid-row-gap: 0px;
+            }
+            
+            .nimg { grid-area: 1 / 1 / 2 / 2; }
+            .ncontent { grid-area: 1 / 2 / 2 / 3; }
+            
+.ncontent{
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);}

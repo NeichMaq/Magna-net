@@ -1,0 +1,72 @@
+@media (min-width: 500px){
+header img{
+    width: 8%;
+}
+.main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows:1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .instru { grid-area: 1 / 1 / 2 / 2; }
+    .comands { grid-area: 1 / 2 / 2 / 3; }
+    
+    .instru , .comands{
+        background-color: rgba(250, 235, 215, 0.514);
+    }
+    main{
+        background-image: url("../Imagenes/paisaje.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    footer{
+        background-size: cover;
+        text-align: center;
+    }
+    .logof{
+        width: 20%;
+    }
+}
+
+    @media (max-width: 500px)  {
+        header img{
+            width: 8%;
+        }
+        .main {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: 1fr;
+            grid-column-gap: 0px;
+            grid-row-gap: 0px;
+            }
+            
+            .instru { grid-area: 1 / 1 / 2 / 2; }
+            .comands { grid-area: 2 / 1 / 2 / 3; }
+            
+            .comands{
+                background-color: rgba(252, 252, 252, 0.767);
+            }
+            .instru{
+                background-size: cover;
+                width: 200%;
+                background-color: rgba(250, 235, 215, 0.514);
+            }
+            .instru{ background-size: cover;}
+            main{
+                background-image: url("../Imagenes/paisaje.png");
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+            }
+            footer{
+                background-size: cover;
+                text-align: center;
+            }
+            .logof{
+                width: 20%;
+            }
+        
+    }
